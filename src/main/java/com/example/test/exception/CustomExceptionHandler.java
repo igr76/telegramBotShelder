@@ -1,5 +1,5 @@
 package main.java.com.example.test.exception;
-
+import main.java.com.example.test.exception.IFElementExist;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-
+import main.java.com.example.test.exception.ElemNotFound;
 import javax.validation.ConstraintViolationException;
-
+import main.java.com.example.test.exception.ErrorResponse;
 /**
  * Контроллер для всех эксепш
  */

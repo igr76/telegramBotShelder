@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * эксепш - класс
- * {@link pro.sky.whiskerspawstailtelegrambot.exception.CustomExceptionHandler#handleInvalidTraceIdException(IFElementExist)}
+ * {@link }
  */
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class ElemNotFound extends RuntimeException {
