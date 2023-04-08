@@ -8,19 +8,20 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.CallbackQuery;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import pro.sky.whiskerspawstailtelegrambot.mainHandler.CallbackQueryHandler;
-import pro.sky.whiskerspawstailtelegrambot.mainHandler.MainHandler;
-import pro.sky.whiskerspawstailtelegrambot.mainHandler.RegistrationHandler;
-import pro.sky.whiskerspawstailtelegrambot.mainHandler.StandardReplyHandler;
-import pro.sky.whiskerspawstailtelegrambot.mainHandler.reportHandler.ReportAddHandler;
-import pro.sky.whiskerspawstailtelegrambot.record.AdoptiveParentRecord;
-import pro.sky.whiskerspawstailtelegrambot.service.AdoptiveParentService;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText;
-import pro.sky.whiskerspawstailtelegrambot.util.StateAdoptiveParent;
+import main.java.com.example.test.mainHandler.MainHandler;
+import main.java.com.example.test.mainHandler.reportHandler.ReportAddHandler;
+import main.java.com.example.test.mainHandler.StandardReplyHandler;
+import main.java.com.example.test.service.AdoptiveParentService;
+import main.java.com.example.test.mainHandler.CallbackQueryHandler;
+import main.java.com.example.test.mainHandler.RegistrationHandler;
+import main.java.com.example.test.mainHandler.MessageHandler.GetBaseInfoFromUpdate;
+import main.java.com.example.test.textAndButtonsAndKeyboard.AllText;
+import main.java.com.example.test.mainHandler.MessageHandler.ButtonCancelHandler;
+import main.java.com.example.test.record.AdoptiveParentRecord;
+import main.java.com.example.test.util.StateAdoptiveParent;
 
-import static pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText.CANCEL_TEXT;
-import static pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText.REGISTRATION_CANCEL;
-
+import static main.java.com.example.test.textAndButtonsAndKeyboard.AllText.CANCEL_TEXT;
+import static main.java.com.example.test.textAndButtonsAndKeyboard.AllText.REGISTRATION_CANCEL;
 
 /**
  * обработка текстового сообщения

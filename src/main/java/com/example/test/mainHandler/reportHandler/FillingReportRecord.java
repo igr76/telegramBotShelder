@@ -1,12 +1,10 @@
 package main.java.com.example.test.mainHandler.reportHandler;
+import main.java.com.example.test.record.ReportRecord;
+import main.java.com.example.test.record.PetRecord;
+import main.java.com.example.test.util.ParserToBot;
+import main.java.com.example.test.service.ReportService;
 
-import pro.sky.whiskerspawstailtelegrambot.record.PetRecord;
-import pro.sky.whiskerspawstailtelegrambot.record.ReportRecord;
-import pro.sky.whiskerspawstailtelegrambot.service.ReportService;
-import pro.sky.whiskerspawstailtelegrambot.util.ParserToBot;
-
-import static pro.sky.whiskerspawstailtelegrambot.util.StateReport.WAIT_ID_PET_REPORT;
-
+import static main.java.com.example.test.util.StateReport.WAIT_ID_PET_REPORT;
 
 public class FillingReportRecord {
 

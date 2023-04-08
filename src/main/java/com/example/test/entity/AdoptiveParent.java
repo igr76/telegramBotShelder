@@ -6,7 +6,7 @@ import com.google.common.base.Objects;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
-
+import main.java.com.example.test.entity.Pet;
 import javax.persistence.*;
 import java.util.List;
 

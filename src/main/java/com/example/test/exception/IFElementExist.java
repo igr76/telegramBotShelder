@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * эксепш - класс
- * {@link pro.sky.whiskerspawstailtelegrambot.exception.CustomExceptionHandler#handleInvalidTraceIdException(MethodArgumentNotValidException)}
+ * {@link }
  */
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class IFElementExist extends RuntimeException {

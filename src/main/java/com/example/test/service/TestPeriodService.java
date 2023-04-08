@@ -2,17 +2,15 @@ package main.java.com.example.test.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import pro.sky.whiskerspawstailtelegrambot.entity.AdoptiveParent;
-import pro.sky.whiskerspawstailtelegrambot.entity.Pet;
-import pro.sky.whiskerspawstailtelegrambot.exception.ElemNotFound;
-import pro.sky.whiskerspawstailtelegrambot.mapper.PetMapper;
-import pro.sky.whiskerspawstailtelegrambot.record.PetRecord;
-import pro.sky.whiskerspawstailtelegrambot.repository.AdoptiveParentRepo;
-import pro.sky.whiskerspawstailtelegrambot.repository.PetRepository;
-
+import main.java.com.example.test.repository.PetRepository;
+import main.java.com.example.test.repository.AdoptiveParentRepo;
 import java.time.LocalDateTime;
 import java.util.Collection;
-
+import main.java.com.example.test.mapper.PetMapper;
+import main.java.com.example.test.entity.AdoptiveParent;
+import main.java.com.example.test.record.PetRecord;
+import main.java.com.example.test.entity.Pet;
+import main.java.com.example.test.exception.ElemNotFound;
 /**
  * Сервис для управления испытательными сроками
  */

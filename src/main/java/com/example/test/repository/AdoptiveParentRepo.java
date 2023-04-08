@@ -1,7 +1,7 @@
 package main.java.com.example.test.repository;
 
+import main.java.com.example.test.entity.AdoptiveParent;
 import org.springframework.data.jpa.repository.JpaRepository;
-import pro.sky.whiskerspawstailtelegrambot.entity.AdoptiveParent;
 
 /**
  * Репозиторий для усыновителей

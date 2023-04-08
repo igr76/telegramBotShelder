@@ -1,5 +1,5 @@
 package main.java.com.example.test.entity;
-
+import main.java.com.example.test.entity.Shelter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.base.Objects;
 import lombok.*;

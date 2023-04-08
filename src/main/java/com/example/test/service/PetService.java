@@ -5,13 +5,11 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import pro.sky.whiskerspawstailtelegrambot.entity.Pet;
-import pro.sky.whiskerspawstailtelegrambot.exception.ElemNotFound;
-import pro.sky.whiskerspawstailtelegrambot.mapper.PetMapper;
-import pro.sky.whiskerspawstailtelegrambot.record.PetRecord;
-import pro.sky.whiskerspawstailtelegrambot.repository.PetRepository;
-
+import main.java.com.example.test.repository.PetRepository;
 import javax.transaction.Transactional;
+import main.java.com.example.test.mapper.PetMapper;
+import main.java.com.example.test.record.PetRecord;
+import main.java.com.example.test.entity.Pet;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;

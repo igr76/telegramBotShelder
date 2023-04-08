@@ -8,18 +8,19 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
-import pro.sky.whiskerspawstailtelegrambot.entity.AdoptiveParent;
-import pro.sky.whiskerspawstailtelegrambot.entity.Pet;
-import pro.sky.whiskerspawstailtelegrambot.exception.ElemNotFound;
-import pro.sky.whiskerspawstailtelegrambot.mapper.AdoptiveParentMapper;
-import pro.sky.whiskerspawstailtelegrambot.record.AdoptiveParentRecord;
-import pro.sky.whiskerspawstailtelegrambot.record.PetRecord;
-import pro.sky.whiskerspawstailtelegrambot.repository.AdoptiveParentRepo;
+import main.java.com.example.test.entity.AdoptiveParent;
+import main.java.com.example.test.entity.Pet;
+import main.java.com.example.test.exception.ElemNotFound;
+import main.java.com.example.test.mapper.AdoptiveParentMapper;
+import main.java.com.example.test.record.AdoptiveParentRecord;
+import main.java.com.example.test.record.PetRecord;
+import main.java.com.example.test.repository.AdoptiveParentRepo;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;

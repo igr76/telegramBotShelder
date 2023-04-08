@@ -3,11 +3,11 @@ package main.java.com.example.test.record;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import pro.sky.whiskerspawstailtelegrambot.entity.AdoptiveParent;
-import pro.sky.whiskerspawstailtelegrambot.entity.Pet;
-import pro.sky.whiskerspawstailtelegrambot.entity.Shelter;
-
+import main.java.com.example.test.entity.Shelter;
+import main.java.com.example.test.entity.Pet;
 import javax.validation.constraints.NotNull;
+import main.java.com.example.test.entity.AdoptiveParent;
+import main.java.com.example.test.record.ReportRecord;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;

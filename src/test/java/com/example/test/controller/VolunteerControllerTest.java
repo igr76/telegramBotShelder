@@ -11,11 +11,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import pro.sky.whiskerspawstailtelegrambot.entity.Volunteer;
-import pro.sky.whiskerspawstailtelegrambot.mapper.VolunteerMapper;
-import pro.sky.whiskerspawstailtelegrambot.mapper.VolunteerMapperImpl;
-import pro.sky.whiskerspawstailtelegrambot.repository.VolunteerRepo;
-import pro.sky.whiskerspawstailtelegrambot.service.VolunteerService;
+import main.java.com.example.test.entity.Volunteer;
+import main.java.com.example.test.mapper.VolunteerMapper;
+import main.java.com.example.test.controller.VolunteerController;
+import main.java.com.example.test.repository.VolunteerRepo;
+import main.java.com.example.test.service.VolunteerService;
 
 import java.util.ArrayList;
 import java.util.List;

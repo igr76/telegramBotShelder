@@ -8,22 +8,18 @@ import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.PhotoSize;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
-import pro.sky.whiskerspawstailtelegrambot.record.PetRecord;
-import pro.sky.whiskerspawstailtelegrambot.record.ReportRecord;
-import pro.sky.whiskerspawstailtelegrambot.service.AdoptiveParentService;
-import pro.sky.whiskerspawstailtelegrambot.service.ReportService;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.ConfigKeyboard;
-import pro.sky.whiskerspawstailtelegrambot.util.FormReplyMessages;
-import pro.sky.whiskerspawstailtelegrambot.util.StateAdoptiveParent;
-
+import main.java.com.example.test.util.FormReplyMessages;
+import main.java.com.example.test.service.ReportService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import main.java.com.example.test.textAndButtonsAndKeyboard.ConfigKeyboard;
+import main.java.com.example.test.textAndButtonsAndKeyboard.AllText;
+import static main.java.com.example.test.textAndButtonsAndKeyboard.AllText.*;
+import static main.java.com.example.test.util.StateReport.*;
+import main.java.com.example.test.service.AdoptiveParentService;
 
-import static pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText.*;
-import static pro.sky.whiskerspawstailtelegrambot.util.StateReport.*;
 
 /**
  * обработка репорт на будующее

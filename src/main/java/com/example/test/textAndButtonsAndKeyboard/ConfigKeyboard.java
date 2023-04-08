@@ -12,8 +12,11 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKe
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import static main.java.com.example.test.textAndButtonsAndKeyboard.Button.*;
 
 /**
  * Класс, где создается кнопки в боте
