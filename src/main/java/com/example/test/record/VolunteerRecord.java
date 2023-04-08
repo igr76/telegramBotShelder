@@ -3,12 +3,11 @@ package main.java.com.example.test.record;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import pro.sky.whiskerspawstailtelegrambot.entity.Shelter;
-
+import main.java.com.example.test.entity.Volunteer;
 import java.io.Serializable;
-
+import main.java.com.example.test.entity.Shelter;
 /**
- * A DTO for the {@link pro.sky.whiskerspawstailtelegrambot.entity.Volunteer} entity
+ * A DTO for the {@link Volunteer} entity
  */
 @Getter
 @Setter

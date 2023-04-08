@@ -2,17 +2,15 @@ package main.java.com.example.test.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import pro.sky.whiskerspawstailtelegrambot.entity.AdoptiveParent;
-import pro.sky.whiskerspawstailtelegrambot.exception.ElemNotFound;
-import pro.sky.whiskerspawstailtelegrambot.mapper.AdoptiveParentMapper;
-import pro.sky.whiskerspawstailtelegrambot.mapper.ReportMapper;
-import pro.sky.whiskerspawstailtelegrambot.record.AdoptiveParentRecord;
-import pro.sky.whiskerspawstailtelegrambot.record.ReportRecord;
-import pro.sky.whiskerspawstailtelegrambot.repository.AdoptiveParentRepo;
-import pro.sky.whiskerspawstailtelegrambot.util.StateAdoptiveParent;
-
+import main.java.com.example.test.mapper.AdoptiveParentMapper;
+import main.java.com.example.test.repository.AdoptiveParentRepo;
 import java.util.Collection;
-
+import  main.java.com.example.test.mapper.ReportMapper;
+import main.java.com.example.test.record.ReportRecord;
+import main.java.com.example.test.record.AdoptiveParentRecord;
+import main.java.com.example.test.exception.ElemNotFound;
+import main.java.com.example.test.entity.AdoptiveParent;
+import main.java.com.example.test.util.StateAdoptiveParent;
 /**
  * Сервис слой для усыновителя
  */

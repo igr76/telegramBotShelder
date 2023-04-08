@@ -2,11 +2,11 @@ package main.java.com.example.test.record;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
+import main.java.com.example.test.entity.Report;
 import java.io.Serializable;
 
 /**
- * A DTO for the {@link pro.sky.whiskerspawstailtelegrambot.entity.Report} entity
+ * A DTO for the {@link Report} entity
  */
 @Getter
 @Setter

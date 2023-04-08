@@ -3,13 +3,12 @@ package main.java.com.example.test.record;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-import pro.sky.whiskerspawstailtelegrambot.entity.AdoptiveParent;
-
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import main.java.com.example.test.record.PetRecord;
 import java.util.List;
-
+import main.java.com.example.test.entity.AdoptiveParent;
 /**
  * A DTO for the {@link AdoptiveParent} entity
  */

@@ -2,13 +2,14 @@ package main.java.com.example.test.record;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
+import main.java.com.example.test.entity.Shelter;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
-
+import main.java.com.example.test.record.PetRecord;
+import main.java.com.example.test.record.VolunteerRecord;
 /**
- * A DTO for the {@link pro.sky.whiskerspawstailtelegrambot.entity.Shelter} entity
+ * A DTO for the {@link Shelter} entity
  */
 @Getter
 @Setter

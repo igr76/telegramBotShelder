@@ -4,13 +4,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
-import pro.sky.whiskerspawstailtelegrambot.record.AdoptiveParentRecord;
-import pro.sky.whiskerspawstailtelegrambot.service.AdoptiveParentService;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.ConfigKeyboard;
-import pro.sky.whiskerspawstailtelegrambot.util.FormReplyMessages;
-import pro.sky.whiskerspawstailtelegrambot.util.StateAdoptiveParent;
-
+import main.java.com.example.test.service.AdoptiveParentService;
+import main.java.com.example.test.util.FormReplyMessages;
+import main.java.com.example.test.textAndButtonsAndKeyboard.ConfigKeyboard;
+import main.java.com.example.test.record.AdoptiveParentRecord;
+import main.java.com.example.test.textAndButtonsAndKeyboard.AllText;
+import main.java.com.example.test.util.StateAdoptiveParent;
 /**
  * Обработка сообщений при регистрации
  */

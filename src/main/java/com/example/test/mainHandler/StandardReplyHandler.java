@@ -4,15 +4,15 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
-import pro.sky.whiskerspawstailtelegrambot.mainHandler.reportHandler.ReportAddHandler;
-import pro.sky.whiskerspawstailtelegrambot.record.AdoptiveParentRecord;
-import pro.sky.whiskerspawstailtelegrambot.service.AdoptiveParentService;
-import pro.sky.whiskerspawstailtelegrambot.service.ShelterService;
-import pro.sky.whiskerspawstailtelegrambot.service.VolunteerService;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.AllText;
-import pro.sky.whiskerspawstailtelegrambot.textAndButtonsAndKeyboard.ConfigKeyboard;
-import pro.sky.whiskerspawstailtelegrambot.util.FormReplyMessages;
-import pro.sky.whiskerspawstailtelegrambot.util.ParserToBot;
+import main.java.com.example.test.util.FormReplyMessages;
+import main.java.com.example.test.textAndButtonsAndKeyboard.ConfigKeyboard;
+import main.java.com.example.test.service.VolunteerService;
+import main.java.com.example.test.mainHandler.reportHandler.ReportAddHandler;
+import main.java.com.example.test.util.ParserToBot;
+import main.java.com.example.test.service.ShelterService;
+import main.java.com.example.test.service.AdoptiveParentService;
+import main.java.com.example.test.mainHandler.RegistrationHandler;
+import main.java.com.example.test.textAndButtonsAndKeyboard.AllText;
 
 /**
  * Обработчик стандартных сообщений от пользователя, в том числе и из обычной клавиатуры
