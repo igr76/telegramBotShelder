@@ -1,7 +1,7 @@
 package main.java.com.example.test.textAndButtonsAndKeyboard;
 
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
-
+import main.java.com.example.test.textAndButtonsAndKeyboard.AllText;
 /**
  * Класс в котором содежатся кнопки для взаимодействия пользователя с ботом
  */
