@@ -5,14 +5,15 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import pro.sky.whiskerspawstailtelegrambot.entity.Shelter;
-import pro.sky.whiskerspawstailtelegrambot.exception.ElemNotFound;
-import pro.sky.whiskerspawstailtelegrambot.repository.ShelterRepo;
-
+import main.java.com.example.test.entity.Shelter;
+import main.java.com.example.test.exception.ElemNotFound;
+import main.java.com.example.test.repository.ShelterRepo;
+import main.java.com.example.test.service.ShelterService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 import static org.mockito.Mockito.*;
 
